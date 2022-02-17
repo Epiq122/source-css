@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  background: rgb(245, 249, 252);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(44, 66, 88);
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Header */
+
+header {
+  overflow: hidden;
+  background: rgb(245, 249, 252);
+  height: 200px;
+}
+
+header h3 {
+  overflow: hidden;
+  margin-left: 20px;
+  float: left;
+  color: rgb(44, 66, 85);
+}
+
+header nav ul {
+  overflow: hidden;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+
+header nav li {
+  /* center the li */
+  overflow: hidden;
+  display: inline-block;
+  margin: 0 20px;
+  padding-top: 20px;
+}
+
+.login-btn {
+  overflow: hidden;
+  background: rgb(44, 66, 85);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  float: right;
+  margin-right: 20px;
+}
+
+/* Middle */
+
+.middle h2 {
+  font-size: 40px;
+  width: 50%;
+  color: rgb(44, 66, 88);
+}
+
+.middle p {
+  width: 50%;
+  color: rgb(44, 66, 88);
+}
+
+.middle span {
+  text-transform: uppercase;
+}
+.middle {
+  display: flex;
+  justify-content: row;
+  width: 100%;
+  background: rgb(245, 249, 252);
+  margin-left: 20px;
+  padding-bottom: 100px;
+}
+
+.phone-img {
+  overflow: hidden;
+  float: right;
+  width: 70%;
+  margin-right: 20px;
+}
+.information {
+  background: rgb(245, 249, 252);
+  width: 60%;
+
+  height: 50%;
+  margin-left: 20px;
+}
+
+.submit-btn {
+  overflow: hidden;
+  background: rgb(53, 69, 88);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.middle input {
+  height: 40px;
+}
+
+/* features section */
+
+.feature-1,
+.feature-2,
+.feature-3,
+.feature-4 {
+  margin-left: 25px;
+  color: rgb(44, 66, 88);
+}
+
+.features a {
+  color: rgb(44, 66, 88);
+}
+
+.feature-img {
+  width: 10%;
+}
+
+.features {
+  padding-bottom: 40px;
+  display: inline-flex;
+}
+
+.bottom h2 {
+  font-size: 40px;
+  color: rgb(44, 66, 88);
+  width: 30%;
+  margin-left: 25px;
+}
+
+.bottom p {
+  margin-left: 25px;
+  width: 30%;
+  color: rgb(44, 66, 88);
+}
